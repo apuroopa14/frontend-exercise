@@ -46,6 +46,11 @@
   color: inherit;
 }
 
+/* For help button Hover on percentage card */
+ .percentage-card .help-button :hover {
+  color: red;
+} 
+
 .percentage-card:last-child .progress-bar .progress-value {
   background: var(--color-primary);
 }

@@ -9,3 +9,8 @@
 .export-buttons .fa-file-csv {
   color: var(--color-text);
 }
+
+/* For Export button Hover in header */
+ .export-buttons  :hover {
+  color: blue;
+} 
