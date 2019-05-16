@@ -1,3 +1,8 @@
+/* For  Hover on Pie chart slices */
+
+import "styles/PieChart.css";
+
+
 /**
  * A SVG based pie chart contained in a SVG <g> element
  */
@@ -50,6 +55,8 @@ export default class PieChart {
 
       const slice = this.createSvgElement("path");
       slice.className.baseVal = "slice";
+   
+
 
       slice.setAttribute(
         "d",
@@ -64,6 +71,11 @@ export default class PieChart {
         "transform",
         `rotate(${angleInDegStart}, ${radius}, ${radius})`
       );
+  sag element
+
+
+
+
 
       // Increment total angle by this slice's angle
       angleInDegStart += degPerUnit * datum.value;
