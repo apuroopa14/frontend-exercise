@@ -18,3 +18,8 @@
   border: none;
   color: inherit;
 }
+
+/* For Help button Hover on range card */
+ .range-card .help-button  :hover {
+  color: red;
+} 

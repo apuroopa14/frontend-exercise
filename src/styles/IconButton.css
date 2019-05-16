@@ -4,6 +4,11 @@
   padding: 5px;
 }
 
+/* For Icon button Hover on side menu bar */
+ .icon-button :hover {
+  color: red;
+} 
+
 .icon-button i {
   color: var(--color-white);
 }

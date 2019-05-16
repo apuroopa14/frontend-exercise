@@ -1,0 +1,6 @@
+/* For  Hover on Pie chart slices */
+
+
+ .slices :hover {
+fill: #ec008c;
+}

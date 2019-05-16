@@ -3,20 +3,22 @@
   flex-direction: row;
   align-items: center;
   background: var(--color-bg);
-  padding: 50px 100px;
+/* changed bottom padding to 80 px  so that when screen is shorter and header is getting shrinked, the header content won't over flow */
+  padding: 80px 100px;
   
   box-shadow: 0 3px 3px var(--color-shadow);
 
   /* for fixed header*/
   flex: 0 0 auto;
-
+/*for shrinking header on shorter screens*/
+  flex-shrink: 1;
+ 
 }
 
 .header .logo-container {
   height: 134px;
   width: 134px;
   background: url("../assets/logo.png");
-
   margin-right: 32px;
 }
 
