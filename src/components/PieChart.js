@@ -71,7 +71,7 @@ export default class PieChart {
         "transform",
         `rotate(${angleInDegStart}, ${radius}, ${radius})`
       );
-  sag element
+ 
 
 
 
